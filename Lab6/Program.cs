@@ -71,6 +71,7 @@ namespace Lab6
 					Console.WriteLine();
 					Console.WriteLine("\t\t   Would you like to try your hand again? Yes or No?");
 					Console.Write("\t\t\t\t\t");
+
 					string again = Console.ReadLine().ToUpper();
 					if (again == "YES")
 					{
